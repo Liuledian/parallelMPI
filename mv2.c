@@ -96,4 +96,5 @@ int main (int argc, char *argv[]) {
    print_block_vector ((void *) c, mpitype, n, MPI_COMM_WORLD);
    MPI_Finalize();
    return 0;
+   MPI_Reduce()
 }

@@ -63,3 +63,8 @@ void print_block_vector (void *, MPI_Datatype, int,
                          MPI_Comm);
 void print_replicated_vector (void *, MPI_Datatype, int,
                               MPI_Comm);
+
+
+void *my_malloc (
+        int id,     /* IN - Process rank */
+        int bytes);  /* IN - Bytes to allocate */

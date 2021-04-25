@@ -1,6 +1,7 @@
 /* Generate an n-element double vector and write it to a file */
 
 #include <stdio.h>
+#include <stdlib.h>
 main (int argc, char * argv[]) {
    int i, j;
    int n;
