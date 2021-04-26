@@ -9,7 +9,7 @@
  */
 
 /************************* MACROS **************************/
-
+#include "mpi.h"
 #define DATA_MSG           0
 #define PROMPT_MSG         1
 #define RESPONSE_MSG       2
